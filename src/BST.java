@@ -71,6 +71,7 @@ public class BST {
 					currentNode = currentNode.rightNode;
 					if(currentNode.intData == i) {
 						found = true;
+						finished = true;
 					}
 				}
 			} else {
@@ -80,10 +81,12 @@ public class BST {
 					currentNode = currentNode.leftNode;
 					if(currentNode.intData == i) {
 						found = true;
+						finished = true;
 					}
 				}
 			}
 		} while (!finished);
 		return found;
 	}
+	
 }

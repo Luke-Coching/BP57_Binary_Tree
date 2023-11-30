@@ -9,7 +9,7 @@ public class Tester {
 		bstObj.addNode(54);
 		bstObj.traverseAndPrint(bstObj.rootNode);
 		System.out.println();
-		System.out.println(bstObj.findInt(74)); //return true
-		System.out.println(bstObj.findInt(13)); //return false
+		System.out.println("Found 74 in Tree: " + bstObj.findInt(74)); //return true
+		System.out.println("Found 13 in Tree: " + bstObj.findInt(13)); //return false
 		}
 }
